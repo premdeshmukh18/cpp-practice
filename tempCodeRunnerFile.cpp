@@ -2,15 +2,13 @@
 using namespace std;
 int main()
 {
-    int n,x;
-    cout<<"enter the number";
+    int n;
+    cout<<"enter your decimal number";
     cin>>n;
-    cout<<"upto which value you want squares";
-    cin>>x;
-    for(int i=1;i<=x;i++)
+    while(n>0)
     {
-        cout<<n*i<<endl;
-
+        int x= n%2;
+        cout<<x;
+        n=n/2;
     }
-    return 0;
 }
