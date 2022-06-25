@@ -9,3 +9,4 @@ int main()
      cout<<x<<endl;
      return 0;
 }
+//this is array modification using range based for loop.
