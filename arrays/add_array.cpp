@@ -9,8 +9,6 @@ int add(int arr[],int n)
 }
 
 
-
-
 int main()
 { 
     int n;

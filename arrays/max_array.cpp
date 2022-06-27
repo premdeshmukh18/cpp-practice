@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
-int maxi(int arr[n],int n)
+int mac(int arr[],int n)
 {
-    int ans=[0];
+   
+    int ans=arr[0];
     for(int i=0;i<n;i++)
     {
         if(arr[i]>ans)
@@ -18,6 +19,6 @@ int main()
     cin>>n;
     for(int i=0;i<n;i++)
     cin>>arr[i];
-    cout<<max(arr,n);
+    cout<<mac(arr,n);
     return 0;
 }
