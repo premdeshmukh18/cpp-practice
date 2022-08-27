@@ -19,8 +19,6 @@ int distinct_count(int arr[],int n)
 
 }
 
-
-
 int main()
 {
  int n;
