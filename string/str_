@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+string decimal_to_decimal(int n){
+    string s="";
+    while(n>0){
+        int t= n%2;
+        s = s+ to_string()
+    }
+}
